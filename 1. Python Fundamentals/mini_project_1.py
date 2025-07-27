@@ -21,6 +21,9 @@ elif 3 <= miles < 300:
 else:
     print("I suggest Super-Car to your destination.")
 
+
+
+# --------------------------------------------------
 '''
 project: 2
 Let's assume you are planning to use your Python skills to build a PBLApp for 
@@ -45,3 +48,7 @@ print(f"Cost to operate one server per day: ${cost_per_day:.2f}")
 print(f"Cost to operate one server per week: ${cost_per_week:.2f}")
 print(f"Cost to operate one server per month: ${cost_per_month:.2f}")
 print(f"Days I can operate one server with $918: {days_with_budget:.2f} days")
+
+
+
+# --------------------------------------------------
