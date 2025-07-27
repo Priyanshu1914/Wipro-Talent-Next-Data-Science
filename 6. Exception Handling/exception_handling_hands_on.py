@@ -12,6 +12,7 @@ except ValueError:
 except Exception as e:
     print(f"An unexpected error occurred: {e}")
 
+# --------------------------------------------------
 # Write a program to accept a number from the user and check whether it’s prime or not. If user enters anything other than number, 
 # handle the exception and print an error message.
 
@@ -29,6 +30,7 @@ try:
 except ValueError:
     print("Error: Please enter a valid integer.")
 
+# --------------------------------------------------
 # Write a program to accept the file name to be opened from the user, if file exist print the contents of the file in title case or 
 # else handle the exception and print an error message.
 
@@ -42,6 +44,7 @@ except FileNotFoundError:
 finally:
     file.close()
 
+# --------------------------------------------------
 # Declare a list with 10 integers and ask the user to enter an index. Check whether the number in that index is positive or negative number. 
 # If any invalid index is entered, handle the exception and print an error message.
 
@@ -57,3 +60,5 @@ try:
         print("Error: Index out of range.")
 except ValueError:
     print("Error: Please enter a valid integer index.")
+
+# --------------------------------------------------
