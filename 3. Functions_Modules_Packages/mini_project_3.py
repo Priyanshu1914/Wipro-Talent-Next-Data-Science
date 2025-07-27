@@ -21,6 +21,9 @@ def sort_colors(color_string):
 list_of_colors = input("Enter colors separated by hyphen: ")
 print(sort_colors(list_of_colors))
 
+
+# --------------------------------------------------
+
 '''
 Project: 2
 Create a Python module with the following functions:
@@ -67,3 +70,8 @@ print("No of vowels:", count_the_vowels(name))
 freq = frequency_of_letters(name)
 freq_output = ', '.join(f"{char}-{count}" for char, count in freq.items())
 print("Frequency of letters:", freq_output)
+
+
+# --------------------------------------------------
+
+
