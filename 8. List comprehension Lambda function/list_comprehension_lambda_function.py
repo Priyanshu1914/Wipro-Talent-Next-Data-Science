@@ -1,5 +1,3 @@
-# ---------------------------------------------
-# Question 1:
 # Write a LC program to create an output dictionary 
 # which contains only the odd numbers that are 
 # present in the input list = [1,2,3,4,5,6,7] 
@@ -15,7 +13,6 @@ print(output_dict)
 
 
 # ---------------------------------------------
-# Question 2:
 # Make a dictionary of the 26 English alphabets 
 # mapping each with the corresponding integer
 
@@ -29,7 +26,6 @@ print(alphabet_dict)
 
 
 # ---------------------------------------------
-# Question 3:
 # Cube every number in the given list 
 # list_1 = [1,2,3,4,5,6,7,8,9] using lambda and map()
 
