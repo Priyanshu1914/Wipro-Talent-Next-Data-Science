@@ -11,6 +11,8 @@ for char in sent:
 print("Number of uppercase letters:", upper_count)
 print("Number of lowercase letters:", lower_count)
 
+
+# --------------------------------------------------
 # Write a program that will check whether a given String is Palindrome or not.
 
 sent1 = input("Enter a string to check for palindrome: ")
@@ -19,6 +21,8 @@ if sent1 == sent1[::-1]:
 else:
     print("The string is not a palindrome.")
 
+
+# --------------------------------------------------
 # Given a string, return a new string made of n copies of the first 2 chars of the 
 # original string where n is the length of the string. The string length will be >=2. 
 # If input is "Wipro" then output should be "WiWiWiWiWi".
@@ -29,6 +33,8 @@ first_two_chars = sent2[:2]
 result = first_two_chars * n
 print("Resulting string:", result)
 
+
+# --------------------------------------------------
 # Given a string, if the first or last character is 'x', return the string without 
 # those 'x' character, else return the string unchanged. If the input is "xHix", then output is "Hi".
 
@@ -39,6 +45,8 @@ if sent3.endswith('x'):
     sent3 = sent3[:-1]
 print("Modified string:", sent3)
 
+
+# --------------------------------------------------
 # Given a string and an integer n, return a string made of n repetitions of the last n 
 # characters of the string. You may assume that n is between 0 and the length of the string 
 # inclusive. 
@@ -52,3 +60,7 @@ if n > 0 and n <= len(sent4):
     print("Resulting string:", result_n_repeats)
 else:
     print("Invalid value for n. It should be between 0 and the length of the string inclusive.")
+
+
+
+# --------------------------------------------------
