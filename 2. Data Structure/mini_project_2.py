@@ -42,6 +42,9 @@ print("\nUpdated list of people and their facts:")
 for person, fact in people_facts.items():
     print(f"{person}: {fact}")
 
+
+
+# --------------------------------------------------
 '''
 Project: 2
 Given the participant’s score sheet for your University Sports Day, you are required to find the 
@@ -64,6 +67,9 @@ else:
         runner_up_score = unique_scores[1]
         print(f"The runner-up score is: {runner_up_score}")
 
+
+
+# --------------------------------------------------
 '''
 Project: 3
 You have a record of n students. Each record contains the student's name, and their percent marks in 
@@ -94,6 +100,9 @@ if student_name in students:
     average_marks = sum(marks) / len(marks)
     print(f"Average percentage mark for {student_name}: {average_marks:.2f}")
 
+
+
+# --------------------------------------------------
 '''
 Project: 4
 Given a string of n words, help Alex to find out how many times his name appears in the string. 
@@ -107,3 +116,7 @@ words = input("Enter a string of words: ").split()
 name_to_count = "Alex"
 count = words.count(name_to_count)
 print(f"The name '{name_to_count}' appears {count} times in the string.")
+
+
+
+# --------------------------------------------------
