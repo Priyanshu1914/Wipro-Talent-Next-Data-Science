@@ -15,6 +15,7 @@ def sum_of_numbers():
         print("Please provide valid numbers.")
 sum_of_numbers()
 
+# --------------------------------------------------
 # Write a program to accept a welcome message through command line arguments and display the file name along with the welcome message.
 
 import sys
@@ -28,6 +29,7 @@ def welcome_message():
     print(f"Welcome Message: {message}")
 welcome_message()
 
+# --------------------------------------------------
 # Write a program to accept 10 numbers through command line arguments and calculate the sum of prime numbers among them.
 
 import sys
@@ -55,3 +57,4 @@ def sum_of_primes():
     print(f"The sum of prime numbers is: {prime_sum}")
 sum_of_primes()
 
+# --------------------------------------------------
