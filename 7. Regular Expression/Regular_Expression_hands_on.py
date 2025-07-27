@@ -1,5 +1,3 @@
-# --------------------------------------------------
-# Question 1:
 # Write a program to find if a string has only octal digits.
 # Given strings: ['789', '123', '004']
 
@@ -13,7 +11,6 @@ print(octal_strings)
 
 
 # --------------------------------------------------
-# Question 2:
 # Extract the user id, domain name and suffix from the email addresses.
 
 import re
@@ -32,7 +29,6 @@ print(matches)
 
 
 # --------------------------------------------------
-# Question 3:
 # Split the following irregular sentence into proper words
 sentence = "A, very; very: irregular_sentence"
 cleaned_sentence = ' '.join(re.split(r'[;,_:\s]+', sentence)).strip()
@@ -44,7 +40,6 @@ print(cleaned_sentence)
 
 
 # --------------------------------------------------
-# Question 4:
 # Clean up the tweet to contain only the user's message.
 import re
 
@@ -60,7 +55,6 @@ print(cleaned_tweet)
 
 
 # --------------------------------------------------
-# Question 5:
 # Extract all the text portions between the tags from the given HTML page.
 
 import requests
@@ -80,7 +74,6 @@ print(text_output)
 
 
 # --------------------------------------------------
-# Question 6:
 # Identify the words that begin and end with the same character.
 
 words = ['civic', 'trust', 'widows', 'maximum', 'museums', 'aa', 'as']
